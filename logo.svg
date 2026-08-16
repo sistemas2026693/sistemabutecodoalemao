@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171720"/>
+      <stop offset="1" stop-color="#0b0b0f"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC107"/>
+      <stop offset="1" stop-color="#FF9F1A"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF3B30"/>
+      <stop offset="1" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="beerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD257"/>
+      <stop offset="0.5" stop-color="#F7B733"/>
+      <stop offset="1" stop-color="#E89B1C"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFC107" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FFC107" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="10" filter="url(#shadow)"/>
+
+  <circle cx="256" cy="272" r="150" fill="url(#glowGrad)" opacity="0.4"/>
+
+  <path d="M120 104 l8 19 19 8 -19 8 -8 19 -8 -19 -19 -8 19 -8 Z" fill="url(#goldGrad)"/>
+  <path d="M392 392 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z" fill="url(#redGrad)"/>
+  <path d="M398 96 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" fill="url(#goldGrad)" opacity="0.6"/>
+
+  <path d="M326 250 h28 a46 46 0 0 1 0 92 h-28" fill="none" stroke="url(#goldGrad)" stroke-width="16" stroke-linecap="round"/>
+
+  <rect x="196" y="196" width="120" height="188" rx="18" fill="url(#beerGrad)"/>
+
+  <path d="M216 214 Q206 292 218 368" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+  <circle cx="272" cy="330" r="5" fill="#FFFFFF" fill-opacity="0.35"/>
+  <circle cx="238" cy="352" r="4" fill="#FFFFFF" fill-opacity="0.3"/>
+  <circle cx="286" cy="300" r="3.5" fill="#FFFFFF" fill-opacity="0.25"/>
+
+  <path d="M256 252 l6.5 16 16 6.5 -16 6.5 -6.5 16 -6.5 -16 -16 -6.5 16 -6.5 Z" fill="url(#redGrad)"/>
+
+  <rect x="196" y="188" width="120" height="26" rx="13" fill="#FFF6E5"/>
+  <ellipse cx="256" cy="186" rx="76" ry="22" fill="#FFF6E5"/>
+  <ellipse cx="234" cy="172" rx="30" ry="16" fill="#FFFFFF"/>
+  <ellipse cx="278" cy="174" rx="28" ry="14" fill="#FFFFFF"/>
+</svg>
